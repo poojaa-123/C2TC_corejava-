@@ -1,6 +1,5 @@
-
 //Program to demonstrate encapsulation
-package scannerdemo;
+package DAY3.scannerdemo;
 
 import java.util.Scanner;
 

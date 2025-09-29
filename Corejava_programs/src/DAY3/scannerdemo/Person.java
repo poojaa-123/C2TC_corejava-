@@ -1,5 +1,5 @@
 //Program to define Person entity
-package scannerdemo;
+package DAY3.scannerdemo;
 
 public class Person {
 	//Data members
