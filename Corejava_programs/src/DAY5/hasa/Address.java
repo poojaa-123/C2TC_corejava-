@@ -1,6 +1,7 @@
-package DAY5.association.hasa;
+package DAY5.hasa;
 
 public class Address {
+
 	private String street;
 	private String city;
 	private String state;
@@ -52,4 +53,5 @@ public class Address {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
+
 }

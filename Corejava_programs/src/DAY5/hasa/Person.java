@@ -1,7 +1,5 @@
-//Program to define Container class
-package DAY5.association.hasa;
+package DAY5.hasa;
 
-//Container class
 public class Person {
 
 	private String name;
