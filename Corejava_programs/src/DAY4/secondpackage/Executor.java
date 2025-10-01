@@ -20,3 +20,4 @@ public class Executor {
 		b1.methodPublic();
 	}
 }
+
