@@ -1,5 +1,7 @@
-package DAY5.isa;
+//Program to demonstrate usage of IS A Relationship 
+package DAY5.association.isa;
 
+// Superclass
 public class Employee {
 	private String name;
 	private int employeeId;

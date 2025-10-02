@@ -1,5 +1,4 @@
-package DAY5.hasa;
-
+package DAY5.association.hasa;
 public class Address {
 
 	private String street;

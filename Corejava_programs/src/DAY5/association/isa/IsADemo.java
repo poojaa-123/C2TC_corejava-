@@ -1,4 +1,5 @@
-package DAY5.isa;
+// Usage of the "IS-A" relationship 
+package DAY5.association.isa;
 
 public class IsADemo {
 	public static void main(String[] args) {

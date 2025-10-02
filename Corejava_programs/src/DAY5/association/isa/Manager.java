@@ -1,5 +1,6 @@
-package DAY5.isa;
+package DAY5.association.isa;
 
+//Subclass inheriting from Employee
 public class Manager extends Employee {
 	private int teamSize;
 
