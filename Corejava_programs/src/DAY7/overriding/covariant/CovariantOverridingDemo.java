@@ -1,7 +1,9 @@
-package DAY7overriding.covariant;
+package DAY7.overriding.covariant;
+
 public class CovariantOverridingDemo {
-	public static void main(String arg[])
-			throws CloneNotSupportedException
+
+	public static void main(String[] args) 
+		throws CloneNotSupportedException
 		{
 			// new student object created
 			Student student1 = new Student(1, "MCA", "Kapil");
@@ -19,4 +21,5 @@ public class CovariantOverridingDemo {
 		 * student2.printData();
 		 */		
 		}
-}
+	}
+

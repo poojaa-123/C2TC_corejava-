@@ -1,10 +1,11 @@
-package DAY7overloading.v1;
+package DAY7.overloading.v1;
+
 public class Point {
 	private float x;
 	private float y;
 
 	public Point() {
-		x = 0.0f;
+		 x = 0.0f;
 		y = 0.0f;
 	}
 
@@ -22,5 +23,6 @@ public class Point {
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
+
 
 }

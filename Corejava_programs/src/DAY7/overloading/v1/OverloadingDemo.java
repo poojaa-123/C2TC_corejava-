@@ -1,6 +1,6 @@
-package DAY7overloading.v1;
-public class OverloadingDemo {
+package DAY7.overloading.v1;
 
+public class OverloadingDemo {
 	public static void main(String[] args) {
 
 		System.out.println("------------------------ Constructor Overloading -----------------------");
