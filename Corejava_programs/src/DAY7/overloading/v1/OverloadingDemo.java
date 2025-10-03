@@ -1,24 +1,26 @@
 package DAY7.overloading.v1;
 
 public class OverloadingDemo {
-	public static void main(String[] args) {
+    static class Point {
+        float x, y;
+        Point() { x = 0; y = 0; }
+        Point(float a) { x = a; y = 0; }
+        Point(float a, float b) { x = a; y = b; }
+        @Override public String toString() { return "(" + x + ", " + y + ")"; }
+    }
 
-		System.out.println("------------------------ Constructor Overloading -----------------------");
-		
-		Point p = new Point(); //default constructor invoked
-		System.out.println(p);
+    static class MethodOverLoading {
+        public static int addition(int a, int b) { return a + b; }
+        public static float addition(float a, float b) { return a + b; }
+        public static float addition(int a, float b) { return a + b; }
+        public static float addition(float a, int b) { return a + b; }
+        public static String addition(String a, String b) { return a + b; }
+    }
 
-		Point p1 = new Point(14.5f); //single parameter constructor
-		System.out.println(p1);
-
-		Point p2 = new Point(12.5f, 20.50f); //two paramters constructor
-		System.out.println(p2);
-
-		System.out.println("------------------------ Method Overloading -----------------------");
-		System.out.println("Addition of two integers : " + MethodOverloading.addition(10, 20));
-		System.out.println("Addition of two floating numbers :" + MethodOverloading.addition(10.0f, 20.f));
-		System.out.println("Addition of one integer and one float :" + MethodOverloading.addition(10, 20.0f));
-		System.out.println("Addition of one float and one integer :" + MethodOverloading.addition(10.0f, 20));
-		System.out.println("Addition of two Strings : " + MethodOverloading.addition("Hello ", "World"));
-	}
+    public static void main(String[] args) {
+        System.out.println(new Point());
+        System.out.println(new Point(14.5f));
+        System.out.println(new Point(12.5f, 20.5f));
+        System.out.println(MethodOverLoading.addition("Hello ", "World"));
+    }
 }
