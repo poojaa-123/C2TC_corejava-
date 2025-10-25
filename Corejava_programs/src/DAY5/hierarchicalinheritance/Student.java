@@ -41,6 +41,10 @@ public class Student extends Person
 	public String toString() {
 		return "Student [clas=" + clas + ", per=" + per + ", getName()=" + getName() + ", getCity()=" + getCity() + "]";
 	}
+	public String getRollNo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }
