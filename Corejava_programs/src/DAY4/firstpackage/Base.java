@@ -7,7 +7,6 @@ public class Base {
 	 */
 	int varDefault=10;
 	public int varPublic=20;
-	private int varPrivate=30;
 	protected int varProtected=40;
 	
 	/*
@@ -24,12 +23,6 @@ public class Base {
 	{
 		System.out.println("Public access Base class");
 		System.out.println("Public Variable : "+varPublic);
-	}
-	
-	private void methodPrivate()
-	{
-		System.out.println("Private access Base class");
-		System.out.println("Private Variable : "+varPrivate);
 	}
 	
 	protected void methodProtected()
