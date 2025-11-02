@@ -1,7 +1,6 @@
 //Program to demonstrate MultiLevel inheritance
 package DAY5.multilevelinheritance.vehicle;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MultilevelInheritanceDemo {
